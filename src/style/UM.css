@@ -1,0 +1,123 @@
+.back {
+    background-size: cover;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+
+.content1 {
+    margin-right: 53px;
+    margin-bottom: 20px;
+    background-color: #545454;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.content2 {
+    margin-bottom: 20px;
+    background-color: #545454 !important;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    border-color: #707070 !important;
+    border: 53% !important;
+    margin-left: 15px;
+}
+
+.content3 {
+    margin-bottom: 20px;
+    background-color: #ff7411 !important;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 32px;
+    text-align: center;
+    border-color: #707070 !important;
+
+}
+
+
+.rdt_TableCol {
+    background-color: #F2ad00;
+    color: white;
+}
+
+.rdt_TableHeadRow {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.rdt_TableRow {
+   font-weight: 400 !important;
+   font-size: 15px !important;
+}
+
+.rdt_Pagination{
+    font-family: 'Roboto' !important;
+    font-size: 15px !important;
+    color: #000 !important;
+    font-weight: 400 !important;
+}
+
+.border {
+    box-shadow: 1px 1px 2px 2px;
+}
+
+.img {
+    background-color: #929191;
+    padding: 25px 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.modal-header {
+    background-color: #F2AD00;
+}
+
+.col .hari {
+    background: #F4B61B;
+    padding: 5px 20px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.Mbody {
+    background-color: #383F51;
+    color: white;
+}
+
+.nama {
+    padding: 25px 0px;
+}
+.addButton{
+    background-color: #6CC4F4;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.search{
+    color: white;
+    margin-left: 400px;
+    
+}
+.role{
+margin-left: 400px;
+}
+

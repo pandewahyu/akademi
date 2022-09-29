@@ -1,0 +1,472 @@
+/*login*/
+.Button_cancel{
+    width: 200px;
+    margin-right: 4rem;
+  margin-left: 7rem;
+}
+.Button_save{
+    width: 200px;
+    margin-right: 4rem;
+}
+.bgLogin {
+    background-image: url(../assets/image/bg.jpg);
+
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Roboto";
+}
+
+.Clogin {
+    text-align: center;
+}
+
+.H1Log {
+    padding-top: 88px;
+    padding-bottom: 77px;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+    color: white;
+    background: none;
+
+}
+
+.H3Log {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    color: #FFFFFF;
+    width: 700px;
+    margin-left: 300px;
+
+}
+
+.Signin {
+    padding-top: 79px;
+    font-size: 16px;
+}
+
+.login {
+    padding-top: 90px;
+    font-size: 16px;
+}
+
+.cusbtn {
+    background: #ffffff;
+    color: black;
+    padding: 15px 80px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.cusbtn1 {
+    background: #F0A500;
+    color: black;
+    padding: 15px 90px;
+    text-transform: uppercase;
+}
+
+.linkAcc {
+    color: white;
+    padding-top: 100px;
+    display: inline-flex;
+}
+
+.logoD {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.login_button {
+    margin: 0;
+    position: relative;
+    align-items: center;
+}
+
+
+/*Lform*/
+.Container {
+    font-family: "Roboto";
+}
+
+.Fcon {
+    background-color: white;
+    text-align: center;
+    height: 704px;
+    width: 1147px;
+    padding: 50px 50px;
+
+}
+
+.space {
+    padding-top: 158px;
+    margin: 0px 390px;
+
+}
+
+.dash {
+    padding-top: 7px;
+    height: 60px;
+    font-weight: 700;
+    line-height: 30x;
+    font-size: 24px;
+    letter-spacing: 0.3px;
+}
+
+.textE {
+    padding-top: 7px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+
+}
+
+.Temail {
+    padding-top: 28px;
+    height: 64px;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-align: left;
+}
+.mb {
+    margin-bottom: 180px;
+}
+
+/* sidebar header*/
+a:hover {
+    color: blue !important;
+}
+
+.logoSide {
+    width: 32px;
+    height: 32px;
+}
+header{
+    z-index: 1000;
+}
+
+.nav-link.active {
+    background-color: #dc3545 !important;
+    color: #FFFFFF !important;
+    margin: 15px 10px 20px 36px;
+    
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+    margin: 5px 0px 5px 5px;
+}
+
+.note.active {
+    background-color: #dc3545 !important;
+    color: #FFFFFF !important;
+    margin: 15px 0px 20px 0px;
+}
+
+.note {
+    color: #FFFFFF !important;
+}
+
+.atas {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.notes {
+    margin-top: 125%;
+    text-align: center;
+}
+
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    width: 20px;
+    height: 14px;
+    background: url("https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png")no-repeat;
+}
+/**/
+.edit{
+    font-family: 'Roboto';
+    text-transform: capitalize;
+}
+
+
+/**/
+.TextU{
+    margin-right: 30px;
+}
+.back{
+    font-family: 'Roboto';
+}
+
+.filter__button-active{
+    margin-right: 20px;
+    padding: 10px 40px !important;
+    background-color: transparent !important;
+    color: black !important;
+    border-color: rgb(15, 15, 15) !important;
+    border-radius: 100px !important;
+    -webkit-border-radius: 100px !important;
+    -moz-border-radius: 100px !important;
+    -ms-border-radius: 100px !important;
+    -o-border-radius: 100px !important;
+}
+.filter__button-active:hover{
+    background-color: #DC4298 !important;
+    border-color: #DC4298 !important;
+    color: white !important;
+    font-weight: 700 !important;
+}
+.filter__button-active:active{
+    background-color: #DC4298 !important;
+    border-color: #DC4298 !important;
+    color: white !important;
+    font-weight: 700 !important;
+}
+.create__button{
+  height: 3.2rem;
+  margin-top: 15px;
+    -webkit-border-radius: 100px !important;
+    -moz-border-radius: 100px !important;
+    -ms-border-radius: 100px !important;
+    -o-border-radius: 100px !important;
+    padding: 10px 40px !important;
+    background-color: #FB6B03 !important;
+    border-color: #FB6B03 !important;
+}
+.edit_product{
+    width: 50px;
+    height: 40px;
+    /* padding: 10px 40px !important; */
+
+}
+.product__subtitle{
+    font-size: 14px;
+    color: #23A6F0;
+    text-align: center;
+    font-weight: 700;
+}
+.product__title{
+    font-size: 22px;
+    font-family: 'DM Serif Display';
+    font-weight: 600;
+    min-height: 50px;
+}
+.product__description{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #737373;
+    font-weight: 400;
+    word-break:keep-all;
+}
+.product__price-old{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #BDBDBD;
+    margin-right: 5px;
+}
+.product__price-new{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #40BB15;
+    margin-right: 5px;
+    
+}
+.product__icon-detail span{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: #737373;
+}
+.product__icon-list{
+    display: flex;
+    font-size: 12px;
+    color: #737373;
+}
+.product__icon-list img{
+    margin-right: 5px;
+}
+
+.top-unit{
+    background-color:white ;
+ 
+}
+.unit__subtitle{
+    font-size: 14px;
+    align-items: center;
+    color: #23A6F0;
+    /* text-align: center; */
+    font-weight: 700;
+}
+.unit__title{
+    font-size: 22px;
+    font-family: 'DM Serif Display';
+    font-weight: 600;
+
+}
+.unit_icon-list{
+    display: flex;
+    font-size: 12px;
+    color: #737373;
+}.unit__icon-detail span{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: #737373;
+    
+}
+.unit__icon-list{
+    display: flex;
+    font-size: 12px;
+    color: #737373;
+    margin-right: 100px;
+
+}
+.unit__icon-list img{
+    margin-right: 5px;
+}
+.product__description{
+    width: 100%;
+    height: 60px;
+    /* line-height: 20px; */
+    /* word-break: break-all; */
+    /* background-color: skyblue; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-line-clamp: 5;
+    -moz-line-clamp: 5;
+    -ms-line-clamp: 5;
+    /* line-clamp: 5; */
+    overflow: hidden;
+
+}
+.chekbox{
+    margin-bottom: 3rem;
+   color: #252B42;
+}
+.dashboard__cart div{
+    background-color: #252B42;
+    color: white !important;
+    border-radius: 0.2cm;
+}
+.react-calendar__tile{
+    color: #9DA6BA !important;
+}
+.react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from,
+.react-calendar__navigation__arrow{
+color: white !important;
+}
+.dashboard__card-product{
+    height: 150px !important;
+    text-align: center;
+    border-radius: 17px;
+    background-color: #EEFDFE!important;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    display: flex;
+    justify-content: center;
+}
+.dashboard__card-product h3{
+    color: #414141 !important;
+}
+.dashboard__card-product h4{
+    color: #414141 !important;
+    font-weight: 400;
+    font-size: 12.0026px;
+
+}
+.dashboard__card{
+    gap: 20px;
+    display: flex;
+}
+.dashboard__card-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.react-calendar__month-view__days__day--weekend{
+    color: red !important;
+}
+.chart_1-small{
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 6px;
+    height: 18px;
+    background-color: red !important;
+}
+.chart_1{
+    width: 70px;
+    height: 150px;
+    background-color: red !important;
+}
+.chart_2-small{
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 6px;
+    height: 18px;
+    background-color: blue !important;
+}
+.chart_2{
+    width: 70px;
+    height: 100px;
+    background-color: blue !important;
+}
+.chart_3-small{
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 6px;
+    height: 18px;
+    background-color: green !important;
+}
+
+.chart_3{
+    width: 70px;
+    height: 130px;
+    background-color: green !important;
+}
+.card_notes{
+    background-color: #C4C4C4 !important;
+    padding: 10px 0 10px 30px !important;
+    border-radius: 10px;
+    /* display: flex !important; */
+    /* margin: 0 !important; */
+}
+.card_notes p {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-weight: 500 !important;
+    color: black;
+}
+.card_notes-init{
+    padding-right: 20px;
+}
+.card_notes-button{
+    background:transparent !important;
+    border: none;
+}
+.card_notes-add{
+    background-color: green !important;
+    padding: 10px;
+    color: white;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}

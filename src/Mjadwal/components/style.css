@@ -1,0 +1,28 @@
+.fc .fc-col-header-cell-cushion {
+    text-decoration: none;
+    color: black;
+}
+
+.fc .fc-daygrid-day-number {
+    color: black;
+    text-decoration: none;
+}
+
+.fc .fc-daygrid-event {
+    color: cadetblue;
+    cursor: pointer;
+}
+
+.fc .fc-daygrid-event:hover {
+    color: black !important;
+}
+
+.fc .fc-list-day-text {
+    text-decoration: none;
+    color: black;
+}
+
+.fc .fc-list-day-side-text {
+    text-decoration: none;
+    color: black;
+}
