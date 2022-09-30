@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react';
-
+import "../components/style.css"
 // Bootstrap
 import { Modal, Form } from 'react-bootstrap';
 
@@ -88,6 +88,8 @@ const CreateModal = ({
                         <Form.Group className='mb-3'>
                             <Form.Label>Start Time</Form.Label>
                             <Form.Control
+                            className='timeschedule border-1 w-100'
+                         
                                 required
                                 type='time'
                                 value={startTime}
@@ -99,6 +101,7 @@ const CreateModal = ({
                         <Form.Group className='mb-3'>
                             <Form.Label>End Time</Form.Label>
                             <Form.Control
+                              className='timeschedule w-100'
                                 type='time'
                                 required
                                 value={endTime}

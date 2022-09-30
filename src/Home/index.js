@@ -128,8 +128,9 @@ export default function Dashboard() {
 
   return (
     <div>
-      <div className="d-flex gap-3 dashboard__cart">
-        <div className="col-8 card">
+      <div className="d-flex gap-3 dashboard__cart" >
+        <div className="col-8 card" >
+        
           <div className=" dashboard__card-container">
             <div className="dashboard__card p-5">
               <div className="card col dashboard__card-product">

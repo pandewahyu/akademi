@@ -4,13 +4,35 @@ import logo from '../assets/image/D.png';
 import { Nav, NavItem } from "react-bootstrap";
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faShoppingBasket, faRectangleList, faBookOpen, faCalendarAlt, faShoppingBag, faChartLine, faSlidersH, faIdBadge, faChartPie, faStickyNote } from '@fortawesome/free-solid-svg-icons';
+import {faChartLine, faUserTie,faUserShield, faUserGraduate, faUsers,faShoppingBasket, faRectangleList, faBookOpen, faCalendarAlt, faShoppingBag,  faSlidersH, faIdBadge, faChartPie, faStickyNote } from '@fortawesome/free-solid-svg-icons';
 
 const tabs = [{
   route: "/home",
   icon: faChartPie,
   label: "Overview"
-},  {
+},
+{
+  route: "/muser",
+  icon: faUsers,
+  label: "Management User"
+},
+{
+  route: "/mstudent",
+  icon: faUserGraduate,
+  label: "Management Student"
+},
+
+{
+  route: "/mdepartment",
+  icon: faUserShield,
+  label: "Management Department"
+},
+{
+  route: "/mstaff",
+  icon: faUserTie,
+  label: "Management Employee"
+},
+{
   route: "/mjadwal",
   icon: faCalendarAlt,
   label: "Manajemen Jadwal"
@@ -30,6 +52,12 @@ const tabs = [{
   icon: faShoppingBag,
   label: "Produk"
 },
+{
+  route: "/manreport",
+  icon: faChartLine,
+  label: "Management Report"
+},
+
 {
   route: "/notes",
   icon: faStickyNote,

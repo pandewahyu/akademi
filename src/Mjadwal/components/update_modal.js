@@ -101,6 +101,7 @@ const UpdateModal = ({
                         <Form.Group className='mb-3'>
                             <Form.Label>Start Time</Form.Label>
                             <Form.Control
+                            className=' w-100'
                                 // required
                                 type='time'
                                 value={startTime}
@@ -110,6 +111,7 @@ const UpdateModal = ({
                         <div className='mb-3'>
                             <Form.Label>End Time</Form.Label>
                             <Form.Control
+                            className=' w-100'
                                 // required
                                 type='time'
                                 value={endTime}

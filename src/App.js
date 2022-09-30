@@ -14,6 +14,12 @@ import Search from "./Mproduk/index";
 import Dashboard from "./Home/index";
 import MJadwal from "./Mjadwal/m_jadwal";
 import Notes from "./Notes/index";
+import Filtering from "./UserManagement/UM";
+import Mstudent from "./mstudent/student";
+import Department from "./mDepartment/manajemenD";
+import Mstaff from "./Mstaff/Mstaff";
+import Manreport from "./manajemenReport/manReport";
+
 function App() {
   return (
     <Router>
@@ -26,11 +32,16 @@ function App() {
           <Route exact path="/SignUp" component={SignUp} />
           <LayoutDashboard>
             <Route exact path="/home" component={Dashboard} />
+            <Route exact path="/muser" component={Filtering} />
+            <Route exact path="/mstudent" component={Mstudent} />
+            <Route exact path="/mdepartment" component={Department} />
+            <Route exact path="/mstaff" component={Mstaff} />
             <Route exact path="/mjadwal" component={MJadwal} />
             <Route exact path="/mproduk" component={Search} />
             <Route exact path="/categori" component={Categori}/>
             <Route exact path="/units" component={Units}/>
             <Route exact path="/Listunit/:id" component={ListProduct} />
+            <Route exact path="/manreport" component={Manreport}/>
             <Route exact path="/notes" component={Notes} />
           </LayoutDashboard>
         </Switch>

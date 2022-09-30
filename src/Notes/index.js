@@ -135,25 +135,19 @@ export const Notes= () => {
     
     //menampilkan employee
     useEffect(() => {
-
-      const getNotes = async () => {
-        setIsLoading(true);
-        axios.get("http://localhost:3000/notes", { withCredentials: "true" })
-          .then((response) => {
-            setData(response.data);
-            console.log(data);
-            setIsLoading(false);
-          })
-          .catch(error => {
-            console.log(error.response);
-          });
-      };
       getNotes();
       getStudent();
       getNama();
       getEmployee();
       // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
+
+    const getNotes = async () => {
+        axios.get("http://localhost:3000/notes", { withCredentials: "true" })
+          .then((response) => {
+            setData(response.data);
+          })
+      };
   
     const [coba, setCoba] = useState([]);
     const getNama = async () => {

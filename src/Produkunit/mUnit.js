@@ -56,19 +56,19 @@ export const Units = () => {
     //menampilkan kolom dan isi tabel.
     const columns = [
         {
-            name: "Produk id",
+            name: "Product id",
             selector: row => row.product_id ,
             sortable: true,
             center: true,
         },
         {
-            name: "Kode Unit",
+            name: "Code Unit",
             selector: row => row.code_unit,
             sortable: true,
             center: true,
         },
         {
-            name: "Nama",
+            name: "Name",
             selector: row => row.name,
             sortable: true,
             center: true,
@@ -80,7 +80,7 @@ export const Units = () => {
             center: true,
         },
         {
-            name: "edit",
+            name: "Action",
             center: true,
             cell: row => (
                 <div>

@@ -1,13 +1,4 @@
 /*login*/
-.Button_cancel{
-    width: 200px;
-    margin-right: 4rem;
-  margin-left: 7rem;
-}
-.Button_save{
-    width: 200px;
-    margin-right: 4rem;
-}
 .bgLogin {
     background-image: url(../assets/image/bg.jpg);
 
@@ -29,28 +20,26 @@
     line-height: 75px;
     color: white;
     background: none;
-
 }
 
 .H3Log {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 60px;
     line-height: 80px;
     color: #FFFFFF;
-    width: 700px;
-    margin-left: 300px;
-
 }
 
 .Signin {
-    padding-top: 79px;
+    padding-top: 69px;
     font-size: 16px;
 }
 
 .login {
-    padding-top: 90px;
     font-size: 16px;
+    padding-top: 40px;
+    font-size: 16px;
+    padding-bottom: 20px;
 }
 
 .cusbtn {
@@ -88,6 +77,9 @@
     align-items: center;
 }
 
+.formColor {
+    background-color: #FCFDFE !important;
+}
 
 /*Lform*/
 .Container {
@@ -104,9 +96,7 @@
 }
 
 .space {
-    padding-top: 158px;
-    margin: 0px 390px;
-
+    padding-top: 138px;
 }
 
 .dash {
@@ -134,9 +124,13 @@
     padding-right: 32px;
     text-align: left;
 }
-.mb {
-    margin-bottom: 180px;
+
+.kuning {
+    --bs-btn-border-color: none !important;
+    background: #F0A500 !important;
 }
+
+
 
 /* sidebar header*/
 a:hover {
@@ -470,3 +464,429 @@ color: white !important;
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
 }
+.jIYsRq   div:first-child {
+    background-color: #DC3545;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.cVIZme div:first-child{
+    background-color: #DC3545;
+    padding: 5px;
+    border-radius: 20px;
+}
+.sc-kDDrLX {
+    opacity: 0.5 !important;
+}
+
+.rdt_TableCol {
+    background-color: #F2ad00;
+    color: white;
+}
+
+.rdt_TableHeadRow {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.rdt_TableRow {
+    font-weight: 400 !important;
+    font-size: 15px !important;
+}
+
+.rdt_Pagination {
+    font-family: 'Roboto' !important;
+    font-size: 15px !important;
+    color: #000 !important;
+    font-weight: 400 !important;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.8);
+}
+
+.border {
+    box-shadow: 1px 1px 2px 2px;
+}
+
+.img {
+    background-color: #929191;
+    padding: 25px 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+.Mbody {
+    background-color: #383F51;
+    color: white;
+}
+
+
+.addButton {
+    background-color: #6CC4F4;
+    height: 35px;
+    border-radius: 8px;
+}
+
+
+.form-check {
+    filter: invert(70%) hue-rotate(180deg) brightness(1.5) !important;
+}
+
+.form-check .input {
+    width: 10px !important;
+    height: 30px !important;
+    padding: 30px 20px 30px 20px !important;
+}
+
+.ps-6 {
+    padding-left: 3.1rem !important;
+}
+
+.w-45 {
+    width: 45% !important;
+}
+
+.kartuatas::placeholder {
+    color: black !important;
+
+}
+
+.kartuatas {
+    margin-top: 10px;
+    padding: 5px 0px 5px 0px;
+
+    text-align: center;
+}
+
+.bulat {
+    margin-top: 20px;
+    border-radius: 100% !important;
+    background-color: #F0A500 !important;
+    --bs-btn-border-color: none !important;
+    height: 70px;
+    width: 70px;
+}
+input[type="time"] {
+    border: 1 !important;
+    outline: none;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+}
+.timeschedule{
+    border: 1 !important;
+    outline: none;
+    height: 35px;
+    text-align: center;
+}
+
+.istirahat {
+    font-size: 15px;
+    font-weight: 700;
+    background: #F4B61B;
+    padding: 5px;
+    height: 35px;
+    width: 90px;
+    margin-left: 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+    display: none;
+}
+
+.rowJam {
+    margin-top: 8px;
+}
+
+.hari {
+    font-size: 15px;
+    font-weight: 700;
+    background: #F4B61B;
+    padding: 5px;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.title-edit {
+    font-weight: 500;
+    background: #c82222;
+    padding: 7px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-schedule .btn-close {
+    width: 100px !important;
+    height: 100px !important;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/30px auto no-repeat !important;
+}
+
+/**/
+.edit {
+    font-family: 'Roboto';
+    text-transform: capitalize;
+}
+
+
+/**/
+.TextU {
+    margin-right: 30px;
+}
+
+.back {
+    font-family: 'Roboto';
+}
+
+.w-35 {
+    width: 30% !important;
+}
+
+/*chart*/
+.LegendList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding-left: 0px;
+    /* Remove default bullets */
+}
+
+.LegendList li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 10px;
+}
+
+.total {
+    text-align: center;
+}
+
+.BulletLabel {
+    display: flex;
+    align-items: center;
+}
+
+.BulletLabelText {
+    margin-left: 10px;
+}
+
+.colReport1 {
+    width: 100vh !important;
+    height: 40vh !important;
+    border-radius: 20px !important;
+    background-color: #252B42 !important;
+}
+
+.colReport2 {
+
+    width: 50vh !important;
+    height: 40vh !important;
+    border-radius: 20px !important;
+    background-color: #252B42 !important;
+}
+
+.w-40 {
+    width: 40% !important;
+}
+
+.BarOne {
+    background-color: #1B2130 !important;
+}
+
+.BarTwo {
+    background-color: white !important;
+}
+
+.headBar {
+    background-color: #F0A500;
+    border-radius: 15px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin: -1px;
+
+}
+
+.teah svg{
+    height: 190px !important;
+}
+
+.optionListContainer {
+    color: #000;
+}
+.headder{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/*UM css*/
+.back {
+    background-size: cover;
+    font-family: 'Roboto' !important;
+}
+
+.content1 {
+    margin-right: 53px;
+    margin-bottom: 20px;
+    background-color: #545454;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+.content2 {
+    margin-bottom: 20px;
+    background-color: #545454 !important;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-color: #707070 !important;
+    border: 53% !important;
+    margin-left: 15px;
+}
+
+.content3 {
+    margin-bottom: 20px;
+    background-color: #ff7411 !important;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+
+}
+.jIYsRq   div:first-child {
+    background-color: #DC3545;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.cVIZme div:first-child{
+    background-color: #DC3545;
+    padding: 5px;
+    border-radius: 20px;
+}
+.sc-kDDrLX {
+    opacity: 0.5 !important;
+}
+
+.rdt_TableCol {
+    background-color: #F2ad00;
+    color: white;
+}
+
+.rdt_TableHeadRow {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.rdt_TableRow {
+    font-weight: 400 !important;
+    font-size: 15px !important;
+}
+
+.rdt_Pagination {
+    font-family: 'Roboto' !important;
+    font-size: 15px !important;
+    color: #000 !important;
+    font-weight: 400 !important;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.8);
+}
+
+.border {
+    box-shadow: 1px 1px 2px 2px;
+}
+
+.img {
+    background-color: #929191;
+    padding: 25px 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+.Mbody {
+    background-color: #383F51;
+    color: white;
+}
+
+
+.addButton {
+    background-color: #6CC4F4;
+    height: 35px;
+    border-radius: 8px;
+}
+
+
+.form-check {
+    filter: invert(70%) hue-rotate(180deg) brightness(1.5) !important;
+}
+
+.form-check .input {
+    width: 10px !important;
+    height: 30px !important;
+    padding: 30px 20px 30px 20px !important;
+}
+
+.ps-6 {
+    padding-left: 3.1rem !important;
+}
+
+.w-45 {
+    width: 45% !important;
+}
+
+.kartuatas::placeholder {
+    color: black !important;
+
+}
+
+.kartuatas {
+    margin-top: 10px;
+    padding: 5px 0px 5px 0px;
+
+    text-align: center;
+}
+
+.bulat {
+    margin-top: 20px;
+    border-radius: 100% !important;
+    background-color: #F0A500 !important;
+    --bs-btn-border-color: none !important;
+    height: 70px;
+    width: 70px;
+}
+

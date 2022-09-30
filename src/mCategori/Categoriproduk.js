@@ -54,19 +54,19 @@ export const Categori = () => {
     //menampilkan kolom dan isi tabel.
     const columns = [
         {
-            name: "Nama Kategori",
+            name: "Name Catagory",
             selector: row => row.name,
             sortable: true,
             center: true,
         },
         {
-            name: "Kode Kategori",
+            name: "Code Catagory",
             selector: row => row.code_category,
             sortable: true,
             center: true,
         },
         {
-            name: "edit",
+            name: "Action",
             center: true,
             cell: row => (
                 <div>

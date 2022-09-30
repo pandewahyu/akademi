@@ -41,18 +41,7 @@ const Search = () => {
 
 
   useEffect(() => {
-    const getProduct = async () => {
-      setIsLoading(true);
-      axios.get("http://localhost:3000/products", { withCredentials: "true" })
-        .then((response) => {
-          setData(response.data);
-          console.log(data);
-          setIsLoading(false);
-        })
-        .catch(error => {
-          console.log(error.response);
-        });
-    };
+   
     //const getProductcategories = async () => {
     //  setIsLoading(true);
     // axios.get("http://localhost:3000/product-categories", { withCredentials: "true" })
@@ -72,7 +61,14 @@ const Search = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-
+  const getProduct = async () => {
+    axios.get("http://localhost:3000/products", { withCredentials: "true" })
+      .then((response) => {
+        setData(response.data);
+        
+      })
+      
+  };
   const getCatagori = async () => {
     axios.get("http://localhost:3000/product-categories", { withCredentials: 'true' })
       .then((response) => {

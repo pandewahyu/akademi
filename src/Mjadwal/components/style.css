@@ -26,3 +26,9 @@
     text-decoration: none;
     color: black;
 }
+.timeschedule{
+    border: 1 !important;
+    outline: none;
+    height: 35px;
+    text-align: center;
+}
